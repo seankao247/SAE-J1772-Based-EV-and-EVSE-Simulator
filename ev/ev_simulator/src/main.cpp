@@ -249,7 +249,7 @@ void setup() {
   pinMode(pwmPin, INPUT);  // 設定腳位為輸入模式
   pinMode(en_charge, OUTPUT);
   digitalWrite(en_charge, en_charge_state);
-  Serial.begin(115200);      // 初始化序列埠
+  Serial.begin(115200);      
 
   // initialize OLED display with I2C address 0x3C
   if (!oled.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
