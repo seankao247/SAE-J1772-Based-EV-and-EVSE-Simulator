@@ -228,7 +228,7 @@ void mqtt(void *pvParameters)
 
 void setup()
 {
-  Serial.begin(115200);   // 啟用串口通訊
+  Serial.begin(115200);   
   adc1_config_width(ADC_WIDTH_BIT_12);
   adc1_config_channel_atten(ADC1_CHANNEL_5,ADC_ATTEN_DB_11);
   //Serial.println("[EVSE State] setup");
